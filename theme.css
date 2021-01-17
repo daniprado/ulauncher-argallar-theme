@@ -1,0 +1,54 @@
+.app {
+    border: none;
+    font-family: "DejaVuSans";
+    background-color: #272727;
+    border-color: #272727;
+    opacity: .95; 
+}
+
+.input {
+    font-family: "DejaVuSans";
+    font-size: 14px;
+    color: #fabd2f;
+}
+
+.input *:selected, .input *:focus, *:selected:focus {
+    background-color: #556b79;
+    color: #fbb86c;
+}
+
+.item-icon {
+    -gtk-icon-transform: scale(.7);
+}
+.item-text .item-shortcut {
+    color: #5e6547;
+    font-size: 10px;
+}
+.item-name {
+    color: #a89984;
+    font-size: 14px;
+}
+.item-shortcut {
+    color: #fabd2f;
+    font-size: 10px;
+}
+
+.selected.item-box {
+    background-color: #556b79;
+}
+.selected.item-box .item-text {
+    color: #272727;
+}
+.selected.item-box .item-name {
+    color: #272727;
+}
+.selected.item-box .item-shortcut {
+    color: #272727;
+}
+
+.prefs-btn {
+    opacity: .9;
+}
+.prefs-btn:hover {
+    background-color: #faa41a;
+}
